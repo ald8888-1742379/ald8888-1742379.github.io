@@ -3,18 +3,18 @@
 <rss version="2.0">
 
 <channel>
-  <title>W3Schools Home Page</title>
-  <link>https://www.w3schools.com</link>
-  <description>Free web building tutorials</description>
+  <title>Andrea'a RSS Feed</title>
+  <link>https://ald8888-1742379.github.io/index.html</link>
+  <description>Andrea's Website for Info 101</description>
   <item>
-    <title>RSS Tutorial</title>
-    <link>https://www.w3schools.com/xml/xml_rss.asp</link>
-    <description>New RSS tutorial on W3Schools</description>
+    <title>Top public health official says number of dead could be lower as Americans practice social distancing</title>
+    <link>https://www.cnn.com/2020/04/07/politics/white-house-coronavirus-death-projections/index.html</link>
+    <description>The final number could end up being higher or lower than the...</description>
   </item>
   <item>
-    <title>XML Tutorial</title>
-    <link>https://www.w3schools.com/xml</link>
-    <description>New XML tutorial on W3Schools</description>
+    <title>Thousands Apply to Join NASA’s Artemis Generation</title>
+    <link>https://www.nasa.gov/press-release/thousands-apply-to-join-nasa-s-artemis-generation-beanastronaut</link>
+    <description>#BeAnAstronaut</description>
   </item>
 </channel>
 
