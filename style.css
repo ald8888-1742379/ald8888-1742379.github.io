@@ -1,0 +1,96 @@
+/* Main site css */
+
+html, body {
+    font-family: "Assistant", Arial, Helvetica, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+	margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #BCADD5;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    align-items: center;
+    height: 60px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    float: right;
+}
+
+nav #navlinks li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#navlinks {
+	display: flex;
+}
+
+#navlinks a:hover {
+	color: black;
+}
+
+#nav-header a {
+	color: white;
+	text-decoration: none;
+}
+
+#nav-header a:visited {
+	color: white;
+	text-decoration: none
+}
+
+#nav-header a:hover {
+	color: black;	
+}
+
+main {
+	padding: 60px 40px 40px;
+	min-height: 100vh;
+	box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+.item {
+    display: block;
+}
+
+#creative-minds {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#creative-minds audio {
+    width: 640px;
+}
+
+#creative-minds img {
+    margin-top: 30px;
+}
