@@ -74,7 +74,6 @@ h1 {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    
 }
 
 .item {
@@ -113,4 +112,19 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+#about-me-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#favorite-websites-list img {
+    width: 500px;
+    border: 1px solid grey;
+}
+
+#favorite-websites-list li {
+    margin-bottom: 10px;
 }
