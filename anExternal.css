@@ -1,0 +1,70 @@
+/* external css page for someCss.html */
+
+main img {
+    width: 200px;
+}
+
+.item {
+    width: 500px;
+}
+
+#newbie-p1 {
+    font-family: cursive;
+    font-weight: bold;
+    color: black;
+}
+
+#newbie-p2 {
+    font-family: sans-serif;
+    color: black;
+    background-color: khaki;
+}
+
+#newbie-photos img {
+    width: 50px;
+    height: 50px;
+}
+
+#apprentice-centering {
+    position: relative;
+    text-align: center;
+}
+
+#apprentice-centering img {
+    height: 200px;
+    width: auto;
+}
+
+#apprentice-whidbey-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+#apprentice-photo2 {
+    border-style: dashed;
+    border-color: black;
+}
+
+#apprentice-photo2 img {
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+    margin-left: 20px; 
+    margin-right: 20px; 
+}
+
+#apprentice-text-border {
+    border-style: dotted;
+    border-color: mediumslateblue;
+}
+
+#master {
+    border-radius: 20px;
+    background-color: mistyrose;
+}
+
+#master img {
+    float: right;
+}
