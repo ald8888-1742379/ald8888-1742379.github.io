@@ -3,7 +3,9 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Job Application</title>
+		<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="./style.css">
+		<link rel="stylesheet" type="text/css" href="./jobApplicationStyle.css">
 		<link href="https://fonts.googleapis.com/css?family=Assistant:200" rel="stylesheet">
 	</head>
 	<body>
@@ -16,39 +18,13 @@
 		</nav>
 
 		<main>
-			<h1>Andrea Dang - Info 101 - HTML Forms</h1>
 
 			<div class="container">
 
-				<h2>Job Application</h2>
+				<h2 id="form-title">Job Application to be in Andrea's Squad</h2>
 				<p>&nbsp;</p>
 				
-				<form role="form" action="http://ald8888-1742379.github.io/jobform.php" method="post">
-				
-					<fieldset class="form-horizontal" >
-						<legend>Account</legend>
-						<div class="form-group">
-							<label class="col-sm-3 control-label">Email</label>
-							<div class="col-sm-9">
-								<input class="form-control" type="text" name="email">
-							</div>
-						</div>
-						<div class="form-group">
-							<label class="col-sm-3 control-label">Password</label>
-							<div class="col-sm-9">
-								<input class="form-control" type="password" name="password">
-							</div>
-						</div>
-						<div class="form-group">
-							<label class="col-sm-3 control-label">Repeat password</label>
-							<div class="col-sm-9">
-								<input class="form-control" type="password" name="repeat_password">
-							</div>
-						</div>
-					</fieldset>
-				
-					<p>&nbsp;</p>
-				
+				<form role="form" action="./jobform.php" method="post">
 					<fieldset class="form-horizontal" >
 						<legend>Personal Information</legend>
 						<div class="form-group">
@@ -132,6 +108,30 @@
 							<label class="col-sm-3 control-label">ZIP</label>
 							<div class="col-sm-9">
 								<input class="form-control" type="text" name="zip">
+							</div>
+						</div>
+					</fieldset>
+
+					<p>&nbsp;</p>
+
+					<fieldset class="form-horizontal" >
+						<legend>Account</legend>
+						<div class="form-group">
+							<label class="col-sm-3 control-label">Email</label>
+							<div class="col-sm-9">
+								<input class="form-control" type="text" name="email">
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="col-sm-3 control-label">Password</label>
+							<div class="col-sm-9">
+								<input class="form-control" type="password" name="password">
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="col-sm-3 control-label">Repeat password</label>
+							<div class="col-sm-9">
+								<input class="form-control" type="password" name="repeat_password">
 							</div>
 						</div>
 					</fieldset>
@@ -238,13 +238,218 @@
 					</fieldset>
 				
 					<p>&nbsp;</p>
+
+					<fieldset>
+						<legend>About You</legend>
+						<div class="form-rows">
+							<div class="form-group">
+								<label class="control-label">Which breakfast sounds the most appetizing?</label>
+								<div class="col-sm-offset-1 col-sm-11">
+									<div class="radio">
+										<label>
+											<input type="radio" name="breakfast" value="avocado-toast">Avacado Toast
+										</label>
+									</div>
+									<div class="radio">
+										<label>
+											<input type="radio" name="breakfast" value="eggs-bacon">Eggs and Bacon
+										</label>
+									</div>
+									<div class="radio">
+										<label>
+											<input type="radio" name="breakfast" value="acai">Acai Bowl
+										</label>
+									</div>
+									<div class="radio">
+										<label>
+											<input type="radio" name="breakfast" value="fruit-smoothie">Fruit Smoothie
+										</label>
+									</div>
+									<div class="radio">
+										<label>
+											<input type="radio" name="breakfast" value="pancakes">Pancakes
+										</label>
+									</div>
+									<div class="radio">
+										<label>
+											<input type="radio" name="breakfast" value="waffles">Waffles
+										</label>
+									</div>
+									<div class="radio">
+										<label>
+											<input type="radio" name="breakfast" value="coffee">Coffee
+										</label>
+									</div>
+									<div class="radio">
+										<label>
+											<input type="radio" name="breakfast" value="no-breakfast">I don't eat breakfast
+										</label>
+									</div>
+									<div class="radio">
+										<label>
+											<input type="radio" name="breakfast" value="none-above">Other
+										</label>
+									</div>
+								</div>
+							</div>
+							<div class="form-group">
+								<label class="control-label">It's a sunny Seattle summer day. What are you doing?</label>
+								<div class="col-sm-offset-1 col-sm-11">
+									<div class="radio">
+										<label>
+											<input type="radio" name="summer" value="reading">Inside reading a book
+										</label>
+									</div>
+									<div class="radio">
+										<label>
+											<input type="radio" name="summer" value="hiking">Hiking!
+										</label>
+									</div>
+									<div class="radio">
+										<label>
+											<input type="radio" name="summer" value="sleeping">Napping...
+										</label>
+									</div>
+									<div class="radio">
+										<label>
+											<input type="radio" name="summer" value="gaming">Playing Video Games
+										</label>
+									</div>
+									<div class="radio">
+										<label>
+											<input type="radio" name="summer" value="sports">Playing an outdoor sport
+										</label>
+									</div>
+									<div class="radio">
+										<label>
+											<input type="radio" name="summer" value="piano">Practicing piano inside
+										</label>
+									</div>
+									<div class="radio">
+										<label>
+											<input type="radio" name="summer" value="friends">Hanging with friends
+										</label>
+									</div>
+									<div class="radio">
+										<label>
+											<input type="radio" name="summer" value="coding">Coding
+										</label>
+									</div>
+									<div class="radio">
+										<label>
+											<input type="radio" name="summer" value="somethingelse">Other
+										</label>
+									</div>
+								</div>
+							</div>
+							<div class="form-group">
+								<label class="control-label">Choose one genre of music:</label>
+								<div class="col-sm-offset-1 col-sm-11">
+									<div class="radio">
+										<label>
+											<input type="radio" name="music" value="pop">Pop
+										</label>
+									</div>
+									<div class="radio">
+										<label>
+											<input type="radio" name="music" value="country">Country
+										</label>
+									</div>
+									<div class="radio">
+										<label>
+											<input type="radio" name="music" value="Rap">Rap
+										</label>
+									</div>
+									<div class="radio">
+										<label>
+											<input type="radio" name="music" value="classical">Classical
+										</label>
+									</div>
+									<div class="radio">
+										<label>
+											<input type="radio" name="music" value="indie">Indie
+										</label>
+									</div>
+									<div class="radio">
+										<label>
+											<input type="radio" name="music" value="rnb">R&B
+										</label>
+									</div>
+									<div class="radio">
+										<label>
+											<input type="radio" name="music" value="soul">Soul
+										</label>
+									</div>
+									<div class="radio">
+										<label>
+											<input type="radio" name="music" value="rock">Rock
+										</label>
+									</div>
+									<div class="radio">
+										<label>
+											<input type="radio" name="music" value="folk">Folk
+										</label>
+									</div>
+								</div>
+							</div>
+						</div>
+					</fieldset>
 				
+					<p>&nbsp;</p>
+
+					<fieldset>
+						<legend>Creativity</legend>
+						<div class="form-group">
+							<label class="control-label">Create a cool sentence!</label><br>
+							<label>The</label>
+							<input list="adjectives" name="adjective">
+							<datalist id="adjectives">
+								<option value="quick">
+								<option value="slow">
+								<option value="sad">
+								<option value="small">
+								<option value="rad">
+							</datalist>
+							<label>brown</label>
+							<input list="nouns1" name="noun1">
+							<datalist id="nouns1">
+								<option value="fox">
+								<option value="turtle">
+								<option value="Andrea">
+								<option value="bunny">
+								<option value="fish">
+							</datalist>
+							<label>jumped over the lazy</label>
+							<input list="nouns2" name="noun2">
+							<datalist id="nouns2">
+								<option value="dog">
+								<option value="cat">
+								<option value="Andrea">
+								<option value="husky">
+								<option value="lion">
+							</datalist>
+							<label>.</label>
+						</div>
+						<br>
+						<div class="form-group">
+							<label class="control-label">Create a new color:</label>
+							<input class="form-control" type="text" name="color">
+						</div>
+						<div class="form-group">
+							<label class="control-label">What does your color look like?</label>
+							<input class="form-control" type="text" name="color">
+						</div>
+					</fieldset>
+				
+					<p>&nbsp;</p>
+					<p>&nbsp;</p>				
+
 					<input class="btn btn-primary btn-lg" type="submit" value="Submit form">
 				
 					<p>&nbsp;</p>
 				
 				</form>
-				</div><!-- close .container -->
+			</div><!-- close .container -->
 
 		</main>
 		
